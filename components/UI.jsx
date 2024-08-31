@@ -1,12 +1,12 @@
 /* eslint-disable react/button-has-type */
-import { atom, useAtom } from "jotai";
-import { useEffect } from "react";
+import { atom, useAtom } from 'jotai';
+import { useEffect } from 'react';
 
 const pictures = [
   'DSC00680',
-  "DSC00933",
-  "DSC00966",
-  "DSC00983",
+  'DSC00933',
+  'DSC00966',
+  'DSC00983',
   // "DSC01011",
   // "DSC01040",
   // "DSC01064",
@@ -24,7 +24,7 @@ const pictures = [
 export const pageAtom = atom(0);
 export const pages = [
   {
-    front: "book-cover",
+    front: 'book-cover',
     back: pictures[0],
   },
 ];
