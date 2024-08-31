@@ -19,8 +19,8 @@ module.exports = {
   ],
   rules: {
     'react/no-unescaped-entities': 'off',
-    'eslintreact/no-danger': 0,
-    'react/jsx-max-props-per-line': 0,
+    'eslintreact/no-danger': 'off',
+    'react/jsx-max-props-per-line': 'off',
     'react/jsx-first-prop-new-line': 0,
     'no-console': 0,
     'jsx-a11y/label-has-associated-control': 0,
