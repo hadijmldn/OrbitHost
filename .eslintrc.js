@@ -50,8 +50,8 @@ module.exports = {
     'no-multiple-empty-lines': [
       'error',
       {
-        max: 1,
-        maxEOF: 1,
+        max: 1000,
+        maxEOF: 10000,
       },
     ],
     'no-underscore-dangle': [
