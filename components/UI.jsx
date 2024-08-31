@@ -1,8 +1,9 @@
+/* eslint-disable react/button-has-type */
 import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 
 const pictures = [
-  "DSC00680",
+  'DSC00680',
   "DSC00933",
   "DSC00966",
   "DSC00983",
