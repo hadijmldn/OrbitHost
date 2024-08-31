@@ -21,7 +21,7 @@ module.exports = {
     'react/no-unescaped-entities': 'off',
     'eslintreact/no-danger': 'off',
     'react/jsx-max-props-per-line': 'off',
-    'react/jsx-first-prop-new-line': 0,
+    'react/jsx-first-prop-new-line': 'off',
     'no-console': 0,
     'jsx-a11y/label-has-associated-control': 0,
     'no-nested-ternary': 0,
